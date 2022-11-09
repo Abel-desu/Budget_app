@@ -1,0 +1,19 @@
+
+
+<table class="table">
+<tbody>
+<tr class="category-table">
+<td scope="col"><%=image_tag "#{category.icon}" , class: "img" %></td>
+<td scope="col"><strong><%= link_to category.name , category_purchases_path(category_id: category.id) , class: "nav-link text-black" %><strong></td>
+<td scope="col"><%= category.total_purchases %></td>
+<td scope="col"> $<%= category.total_purchases_amount %></td>
+<td scope="col">
+
+ <%= button_to 'Remove',
+      category_path(category),method: :delete,
+      class: "btn btn-danger" %> </td>
+
+</tr>
+</tbody>
+</table>
+
