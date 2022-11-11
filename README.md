@@ -1,4 +1,4 @@
-# Budget_app
+# Budget app
 - This application is developed using RoR CRUD capabilities. It allows users to create budgets and post them in a web interface. 
 
 ## Built With
