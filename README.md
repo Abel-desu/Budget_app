@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://budget-app-new.herokuapp.com/)
+[Live Demo Link](https://deploying-budget.herokuapp.com/)
 
 ## Getting Started
 
