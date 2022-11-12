@@ -3,8 +3,11 @@
   <td>$<%= purchase.amount %></td>
   <td > <%= purchase.category.name %></td>
   <td >
+
       <%= button_to "Delete", category_purchase_path(purchase.category_id, purchase.id), method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
   </td>
+    <p class="total text-center">total amount =$<%= purchase.amount %></p>
+
 </tr>
 
 

@@ -68,3 +68,17 @@
   grid-template-columns: 15% 30% 8% 17% 25%;
 }
 
+.image{
+  width: 468px;
+}
+.col-12{
+  top: 123px;
+    position: absolute;
+}
+.bugdet{
+  position: relative;
+  left: 103px;
+}
+.total{
+  margin-left: 192px;
+}
